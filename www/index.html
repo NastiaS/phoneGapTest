@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="Soju">
+	<head><title>MySoju</title>
+		<head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="
+    default-src *;
+    style-src * 'unsafe-inline';
+    script-src * 'unsafe-inline';
+    media-src *; img-src * data:;
+		" />
+		<script>
+		  var html5Mode = false;
+		</script>
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="styles/style.css" type="text/css">
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-animate/angular-animate.js"></script>
+		<script src="bower_components/angular-aria/angular-aria.js"></script>
+		<script src="bower_components/angular-messages/angular-messages.js"></script>
+		<script src="bower_components/angular-material/angular-material.min.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="bower_components/ng-knob/dist/ng-knob.min.js"></script>
+		<script src="scripts/scripts.js"></script>
+		<script src="scripts/templates.js"></script>
+	</head>
+	<body ng-controller="MainController">
+		<div ng-view></div>
+	</body>
+</html>
